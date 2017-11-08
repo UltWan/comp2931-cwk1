@@ -2,5 +2,4 @@
 docs/
 
 # ignore class files in the bin folder
-bin/*class
-
+bin/

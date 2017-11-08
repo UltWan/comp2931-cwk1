@@ -1,19 +1,13 @@
 <?xml version="1.0"?>
-<project name="Date" basedir="." default="compile">
+<project name="Date" basedir="." default="test">
 
   <property name="src.dir" value="src"/>
   <property name="lib.dir" value="lib"/>
-  <property name="scripts.dir" value="scripts"/>
   <property name="build.dir" value="bin"/>
   <property name="doc.dir" value="doc"/>
-  <property name="dist.dir" value="dist"/>
   <property name="name" value="date"/>
   <property name="version" value="1_0"/>
   <property name="release" value="${name}-${version}"/>
-  <property name="jar.name" value="${name}.jar"/>
-  <property name="jar.path" value="${dist.dir}/${jar.name}"/>
-  <property name="zip.name" value="${release}.zip"/>
-  <property name="zip.path" value="${dist.dir}/${zip.name}"/>
 
   <path id="project.classpath">
     <pathelement location="${build.dir}"/>
@@ -61,10 +55,6 @@
   <target name="clean" description="Remove compiled code and docs">
     <delete dir="${build.dir}"/>
     <delete dir="${doc.dir}"/>
-  </target>
-
-  <target name="veryclean" depends="clean" description="Remove all generated files">
-    <delete dir="${dist.dir}"/>
   </target>
 
 </project>
