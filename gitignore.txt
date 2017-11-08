@@ -1,5 +1,0 @@
-# ignore docs folder
-doc/
-
-# ignore out folder
-out/

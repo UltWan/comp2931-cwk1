@@ -1,0 +1,6 @@
+# ignore html files in the docs folder
+docs/
+
+# ignore class files in the bin folder
+bin/*class
+
