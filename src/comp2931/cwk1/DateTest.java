@@ -1,3 +1,6 @@
+/** @author: Ryan Wan COMP2931 Coursework 1
+ **/
+
 package comp2931.cwk1;
 
 import org.junit.Before;

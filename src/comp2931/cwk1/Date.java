@@ -1,7 +1,7 @@
-// Author: Ryan Wan COMP2931 Coursework 1
-
+/** @author: Ryan Wan COMP2931 Coursework 1
+ **/
+ 
 package comp2931.cwk1;
-
 
 /**
  * Simple representation of a date.
@@ -104,7 +104,7 @@ public class Date {
   /**
    * Provides a string representation of this date.
    *
-   * ISO 8601 format is used (YYYY-MM-DD). Changed from "%04d-%02d-%02d"
+   * ISO 8601 format is used (YYYY-MM-DD). Changed from "%04d-%02d-%2d"
    *
    * @return Date as a string
    */

@@ -1,5 +1,8 @@
-# ignore html files in the docs folder
-docs/
+#ignore .idea folder
+.idea/
 
-# ignore class files in the bin folder
+# ignore everything in the doc folder (html files)
+doc/
+
+# ignore everything in the bin folder (class files)
 bin/
