@@ -1,5 +1,4 @@
-/** @author: Ryan Wan COMP2931 Coursework 1
- **/
+// Ryan Wan COMP2931 Coursework 1
 
 package comp2931.cwk1;
 
@@ -20,7 +19,7 @@ public class DateTest {
   private Date lastYear;
   private Date newYear;
   private Date invalidDate;
-  private Date test;
+  private Date christmas;
 
   @Before
   public void setUp() {
@@ -108,7 +107,7 @@ public class DateTest {
 
   @Test
   public void dayOfYear() {
-    test = new Date(1975, 12, 31);
-    assertThat(test.getDayofYear(), is(365));
+    christmas = new Date(2017, 12, 25);
+    assertThat(christmas.getDayofYear(), is(359));
   }
 }
